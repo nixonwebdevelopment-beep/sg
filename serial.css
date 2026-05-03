@@ -1018,19 +1018,22 @@ nav li a:hover { color: #db151c; }
   .nav-toggle { display: block; }
 
   nav {
-    display: none;
-    flex-direction: column;
-    position: fixed;
-    top: 14vw;
-    left: 0;
-    width: 100%;
-    background: #111;
-    padding: 4vw 5vw;
-    gap: 4vw;
-    z-index: 101;
-  }
+  display: none !important;
+  flex-direction: column;
+  position: fixed;
+  top: 14vw;
+  left: 0;
+  width: 100%;
+  background: #111;
+  padding: 4vw 5vw;
+  gap: 4vw;
+  z-index: 101;
+}
 
-  nav.open { display: flex; }
+nav.open {
+  display: flex !important;
+}
+
   nav li a { font-size: 4.5vw; }
 
   .section1 {
