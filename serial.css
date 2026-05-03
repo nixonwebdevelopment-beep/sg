@@ -1015,7 +1015,7 @@ nav li a:hover { color: #db151c; }
   header { padding: 2vw 3vw; }
   .header-center-img { height: 6vw; }
   .header-logo { font-size: 3.5vw; }
-  .nav-toggle { display: block; }
+
 
   nav {
   display: none !important;
@@ -1033,6 +1033,7 @@ nav li a:hover { color: #db151c; }
 nav.open {
   display: flex !important;
 }
+
 
   nav li a { font-size: 4.5vw; }
 
