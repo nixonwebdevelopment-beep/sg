@@ -93,6 +93,10 @@ nav li a {
   transition: color 0.2s;
 }
 
+nav.open {
+  display: flex !important;
+}
+
 nav li a:hover { color: #db151c; }
 
 .nav-toggle {
@@ -1030,9 +1034,7 @@ nav li a:hover { color: #db151c; }
   z-index: 101;
 }
 
-nav.open {
-  display: flex !important;
-}
+
 
 
   nav li a { font-size: 4.5vw; }
