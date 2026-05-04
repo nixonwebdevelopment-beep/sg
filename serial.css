@@ -1008,6 +1008,7 @@ nav li a:hover { color: #db151c; }
   .order-card p { font-size: 3vw; }
   .order-note p { font-size: 3vw; }
 }
+
 /* ── MOBILE ── */
 @media (max-width: 768px) {
   body { padding-top: 14vw; }
@@ -1020,22 +1021,20 @@ nav li a:hover { color: #db151c; }
   .header-center-img { height: 6vw; }
   .header-logo { font-size: 3.5vw; }
 
+  .nav-toggle { display: block; }
 
   nav {
-  display: none !important;
-  flex-direction: column;
-  position: fixed;
-  top: 14vw;
-  left: 0;
-  width: 100%;
-  background: #111;
-  padding: 4vw 5vw;
-  gap: 4vw;
-  z-index: 101;
-}
-
-
-
+    display: none; /* ← FIXED: removed !important so .nav.open can override */
+    flex-direction: column;
+    position: fixed;
+    top: 14vw;
+    left: 0;
+    width: 100%;
+    background: #111;
+    padding: 4vw 5vw;
+    gap: 4vw;
+    z-index: 101;
+  }
 
   nav li a { font-size: 4.5vw; }
 
